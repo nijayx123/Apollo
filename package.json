@@ -1,0 +1,24 @@
+{
+  "name": "t-shirt",
+  "version": "1.0.0",
+  "description": "An experimental t-shirt website",
+  "main": "index.js",
+  "homepage": "https://nijayx123.github.io/Apollo",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nijayx123/Apollo.git"
+  },
+  "author": "Nijay Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nijayx123/Apollo/issues"
+  }
+}
