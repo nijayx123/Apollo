@@ -1,31 +1,17 @@
 * {
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-nav {
+/* Main Nav */
+.nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 12vh;
+    min-height: 8vh;
     background-color: #333
-}
-
-.head-menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 5vh;
-    background-color: #1a1a1a;
-    color: white;
-    font-size: 12px;
-}
-
-.header-menu h4 {
-}
-.header-menu li {
-    
 }
 
 .logo img {
@@ -45,12 +31,13 @@ nav {
 .logo {
     color: #fff;
     text-decoration: none;
+    padding: 0.5rem;
 }
 
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 20%;
+    width: 30rem;
 }
 
 .nav-links a {
@@ -65,6 +52,60 @@ nav {
     list-style: none;
 }
 
+.secondary-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 2.5rem;
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 12px;
+}
+.n1 {
+    display: flex;
+    justify-content: space-around;
+    width: 14rem;
+    position: relative;
+    right: 7rem;
+}
+.n2 {
+    display: flex;
+    justify-content: space-around;
+    width: 5rem;
+    position: relative;
+    left: 6rem;
+}
+
+/* Head Nav */
+.head-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 4vh;
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 12px;
+}
+
+/* Contents inside header nav */
+.nav-inner {
+    display: flex;
+    width: 6rem;
+    justify-content: space-around;
+    position: relative;
+    right: 6vw;
+}
+
+.nav-inner2 {
+    display: flex;
+    width: 5rem;
+    justify-content: space-around;
+    position: relative;
+    left: 7vw;
+}
+
+/* Menu Button */
 .menu-btn {
     display: none;
 }
@@ -77,26 +118,27 @@ nav {
 }
 
 @media screen and (min-width:1366px) {
-    .nav-links {
+    /* .nav-links {
         width: 30%;
-    }
+    } */
 }
 
 @media screen and (max-width:1365px) {
-    .nav-links {
+    /* .nav-links {
         width: 40%;
-    }
+    } */
 }
 
 @media screen and (min-width: 769px) and (max-width:900px) {
-    .nav-links {
+    /* .nav-links {
         width: 50%;
-    }
+    } */
 }
 
 @media screen and (max-width:768px) {
     body {
         overflow-x: hidden;
+        position: fixed;
     }
     .nav-links {
         position: absolute;
