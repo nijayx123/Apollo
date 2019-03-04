@@ -136,14 +136,14 @@
 }
 
 @media screen and (max-width:768px) {
-    html, body {
+    body {
         overflow-x: hidden;
     }
     .nav-links {
         position: absolute;
         right: 0;
         height: 92vh;
-        top: 11vh;
+        top: 14vh;
         background-color: #333;
         display: flex;
         flex-direction: column;
